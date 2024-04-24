@@ -1,0 +1,152 @@
+.vanilla-zoom {
+  width: 100%;
+}
+
+.vanilla-zoom .sidebar {
+  width: 100%;
+  display: flex;
+}
+
+.vanilla-zoom .sidebar img.small-preview {
+  width: 60px;
+  margin-right: 5px;
+  cursor: pointer;
+  opacity: .5;
+}
+
+.vanilla-zoom .sidebar img.small-preview.active, .vanilla-zoom .sidebar img.small-preview:hover {
+  opacity: 1;
+}
+
+.vanilla-zoom .sidebar img.small-preview:last-child {
+  margin-right: 0;
+}
+
+.vanilla-zoom .zoomed-image {
+  width: 100%;
+  height: 300px;
+  flex: 1;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: contain;
+  margin-bottom: 5px;
+}
+
+.styled-table {        
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  .styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: center;
+  }
+  .styled-table th,
+  .styled-table td {
+   padding: 12px 15px;
+   border: 1px solid #009879;
+
+  }
+  .styled-table tbody tr {
+  border-bottom: thin solid #dddddd;
+  border: 1px solid #009879;
+ }
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+ }
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+ }
+ .styled-table tbody tr:nth-child(even) {
+  background-color: lightblue;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+}
+.styled-table tbody tr:nth-child(odd) {
+  background-color:lightblue;
+  text-align: center;
+  font-weight: bold;
+  color:black;
+}
+
+
+
+
+
+.box{
+
+width: 500px;
+
+height: 50px;
+
+background-color:#009879;
+
+border-radius: 30px;
+
+display: flex;
+
+align-items: center;
+
+padding: 20px;
+
+}
+
+.box > i {
+
+font-size: 0px;
+
+
+color:black;
+
+}
+
+.box > input{
+
+flex: 1;
+
+height: 40px;
+
+border: none;
+
+outline: none;
+
+color:#009879;
+
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 18px;
+
+padding-left: 10px;
+
+
+}
+
+.alert {
+padding: 20px;
+background-color: #f44336;
+color: white;
+text-align:left;
+font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.closebtn {
+margin-left: 15px;
+color: white;
+font-weight: bold;
+float: right;
+font-size: 22px;
+line-height: 20px;
+cursor: pointer;
+transition: 0.3s;
+}
+
+.closebtn:hover {
+color: black;
+}
